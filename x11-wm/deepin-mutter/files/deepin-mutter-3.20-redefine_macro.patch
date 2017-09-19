@@ -1,10 +1,10 @@
---- 2.c	2017-09-19 10:34:18.445227360 +0800
-+++ meta-launcher.c	2017-09-19 10:35:11.075712811 +0800
+--- src/backends/native/2.c	2017-09-19 10:59:44.152020970 +0800
++++ src/backends/native/meta-launcher.c	2017-09-19 11:00:00.861240490 +0800
 @@ -46,9 +46,11 @@
  #include "meta-cursor-renderer-native.h"
  #include "meta-idle-monitor-native.h"
  
-+/* 
++/*
  G_DEFINE_AUTOPTR_CLEANUP_FUNC(GUdevDevice, g_object_unref)
  G_DEFINE_AUTOPTR_CLEANUP_FUNC(GUdevClient, g_object_unref)
  G_DEFINE_AUTOPTR_CLEANUP_FUNC(GUdevEnumerator, g_object_unref)
