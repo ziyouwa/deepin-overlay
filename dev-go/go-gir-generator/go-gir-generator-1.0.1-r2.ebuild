@@ -15,12 +15,14 @@ IUSE=""
 
 
 DEPEND="sys-devel/gcc[go]
-	<=dev-libs/gobject-introspection-1.50.0
+	>=dev-libs/gobject-introspection-1.52.1
 	dev-libs/libgudev[introspection]
 	dev-lang/go"
 
 src_prepare() {
 	#export GOPATH="${S}:/usr/share/gocode"
+	## fix undefined error of SettingsBackendLike
+	eapply ${FILESDIR}/${PN}-1.0.1-SettingsBackendLike.patch
 	default_src_prepare
 }
 

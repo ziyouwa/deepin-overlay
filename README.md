@@ -11,6 +11,9 @@ For user with layman:
 
 ### Packages list
 
+* ***app-emulation***
+* |-deepin-wine
+* |-deepin-wine-helper
 * ***dde-base***
 * |-dde-account-faces
 * |-dde-api
@@ -78,12 +81,9 @@ For user with layman:
 * |-deepin-wm
 * ***x11-libs***
 * |-bamf
-* |-deepin-ui
 * |-gsettings-qt
 * ***dev-python***
 * |-dae
-* |-deepin-gsettings
-* |-deepin-utils
 * |-jieba
 * |-python-ass
 * |-xpybutil
@@ -99,10 +99,9 @@ For user with layman:
 * |-qtstyleplugins
 * ***media-libs***
 * |-cogl
-* ***media-plugins***
-* |-python-mmkeys
-* ***net-analyzer***
-* |-libnethogs
+* ***net-im***
+* |-deepin-wine-QQ
+* |-deepin-wine-wechat
 * ***x11-themes***
 * |-flattr-icons
 * ***x11-apps***
