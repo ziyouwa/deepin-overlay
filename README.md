@@ -52,12 +52,14 @@ For user with layman:
 * |-deepin-gettext-tools
 * |-deepin-grub2-themes
 * |-deepin-manual
+* |-deepin-picker
 * |-deepin-qml-widgets
 * |-deepin-shortcut-viewer
 * |-deepin-social-sharing
 * |-deepin-system-monitor
 * |-deepin-desktop-monitor
 * |-deepin-terminal
+* |-plymouth-theme-deepin
 * ***media-sound***
 * |-deepin-music
 * |-deepin-voice-recorder
