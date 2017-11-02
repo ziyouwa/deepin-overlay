@@ -31,6 +31,7 @@ For user with layman:
 * |-deepin-desktop-base
 * |-deepin-desktop-schemas
 * |-deepin-file-manager-backend
+* |-deepin-gettext-tools
 * |-deepin-gtk-theme
 * |-deepin-icon-theme
 * |-deepin-menu
@@ -46,10 +47,11 @@ For user with layman:
 * |-startdde
 * ***dde-extra***
 * |-dde-calendar
-* |-deepin-clone
 * |-dde-help
 * |-dde-meta-multimedia
-* |-deepin-gettext-tools
+* |-deepin-boot-maker
+* |-deepin-clone
+* |-deepin-desktop-monitor
 * |-deepin-grub2-themes
 * |-deepin-manual
 * |-deepin-picker
@@ -57,8 +59,8 @@ For user with layman:
 * |-deepin-shortcut-viewer
 * |-deepin-social-sharing
 * |-deepin-system-monitor
-* |-deepin-desktop-monitor
 * |-deepin-terminal
+* |-deepin-topbar
 * |-plymouth-theme-deepin
 * ***media-sound***
 * |-deepin-music
