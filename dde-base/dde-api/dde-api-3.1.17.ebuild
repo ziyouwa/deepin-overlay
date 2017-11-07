@@ -45,5 +45,5 @@ src_prepare() {
 
 
 src_install() {
-	emake DESTDIR=${D} libdir=/$(get_libdir) SYSTEMD_LIB_DIR=/usr/$(get_libdir) install
+	emake DESTDIR=${D} libdir=/$(get_libdir) SYSTEMD_LIB_DIR=/$(get_libdir) install
 }
