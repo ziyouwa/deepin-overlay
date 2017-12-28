@@ -21,6 +21,8 @@ RDEPEND="sys-devel/gcc[go]
 		x11-libs/gdk-pixbuf:2
 		media-libs/libcanberra[pulseaudio]
 		x11-libs/libXfixes
+		|| ( net-wireless/rfkill
+		>=sys-apps/util-linux-2.31 )
 		app-text/poppler[cairo]
 		x11-libs/libXcursor
 		x11-apps/xcur2png
@@ -30,7 +32,7 @@ RDEPEND="sys-devel/gcc[go]
 
 DEPEND="${RDEPEND}
 	      dev-go/go-dbus-generator
-	      >=dev-go/deepin-go-lib-1.1.0
+	      >=dev-go/deepin-go-lib-1.2.3
 		  dev-go/go-gir-generator
 	      >=dev-go/dbus-factory-3.1.5"
 
