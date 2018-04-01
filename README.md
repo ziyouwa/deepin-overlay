@@ -54,6 +54,8 @@ For user with layman:
 * |-deepin-calculator
 * |-deepin-clone
 * |-deepin-desktop-monitor
+* |-deepin-editor
+* |-deepin-font-installer
 * |-deepin-grub2-themes
 * |-deepin-manual
 * |-deepin-picker
