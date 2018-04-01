@@ -47,6 +47,7 @@ For user with layman:
 * |-startdde
 * ***dde-extra***
 * |-dde-calendar
+* |-dde-file-manager-integration
 * |-dde-help
 * |-dde-meta-multimedia
 * |-deepin-boot-maker
@@ -99,11 +100,8 @@ For user with layman:
 * |-treefrog-framework
 * ***dev-perl***
 * |-XML-LibXML-PrettyPrint
-* ***dev-lang***
-* |-sassc
-* ***dev-libs***
-* |-libsass
 * ***dev-qt***
+* |-qcef
 * |-qt5dxcb-plugin
 * |-qtstyleplugins
 * ***media-libs***

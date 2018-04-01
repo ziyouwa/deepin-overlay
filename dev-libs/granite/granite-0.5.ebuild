@@ -28,6 +28,14 @@ DEPEND="${RDEPEND}
 "
 
 DOCS=( AUTHORS )
+<<<<<<< HEAD
+=======
+#PATCHES=(
+	# https://bugs.launchpad.net/granite/+bug/1453526
+	#"${FILESDIR}"/${P}-build-fix{,2,3,4}.patch
+#)
+
+>>>>>>> edd4da67fb0e4c760bef7c3b22ce594edd5cbeef
 src_unpack() {
 	mkdir -p "${WORKDIR}"/${P}
 	cd ${P}

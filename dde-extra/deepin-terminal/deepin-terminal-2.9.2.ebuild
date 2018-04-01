@@ -38,6 +38,7 @@ src_prepare() {
 	sed -i 's|return __FILE__;|return "/usr/share/deepin-terminal/project_path.c";|' project_path.c
 	sed -i -e "/NAMES/s:valac:${VALAC}:" cmake/FindVala.cmake || die 
 	sed -i "s|lib/\${target}|$(get_libdir)/\${target}|g" CMakeLists.txt
+	sed -i -e 's|-ltermcap|-ltinfo|g' 3rdparty/zssh-1.5c/configure || die
 	cmake-utils_src_prepare
 }
 
